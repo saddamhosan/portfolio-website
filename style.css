@@ -1,9 +1,88 @@
 body {
   font-family: "Kanit", sans-serif;
+  margin: 0;
 }
+.logo {
+  font-family: "Stalinist One", cursive;
+  background-image: linear-gradient(50deg, #fa715c, #ff4d94);
+  margin: 0;
+  text-align: center;
+  padding: 10px 0;
+}
+.logo span {
+  background: linear-gradient(to right, #797bfd, #7bdef7);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 50px;
+}
+
 .tometo {
   color: goldenrod;
 }
 .hadname {
-  font-size: 50px;
+  font-size: 40px;
+}
+.linkbtn {
+  text-decoration: none;
+  background-image: linear-gradient(50deg, #8e8ecf, #c6fcfc);
+  padding: 10px 40px;
+  color: gray;
+  border-radius: 10px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.half-width {
+  width: 50%;
+  margin-left: 50px;
+  margin-right: 30px;
+  text-align: justify;
+}
+.first-sec {
+  display: flex;
+  background-image: url(image/top-banner.png);
+  background-repeat: no-repeat;
+  margin-bottom: 40px;
+}
+.half-width img {
+  width: 100%;
+}
+.second-sec {
+  display: flex;
+  background-image: url(image/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position-x: right;
+  margin-bottom: 40px;
+}
+.developer-aria {
+  display: flex;
+}
+.developer {
+  width: 40%;
+  margin: 0 5%;
+  padding: 10px 10px 0 30px;
+  text-align: justify;
+  /* height: 350px; */
+  box-shadow: 10px 10px 40px gray;
+}
+.baby {
+  border-left: 10px solid;
+  border-image: linear-gradient(#ff73008f, #ff0000);
+  border-image-slice: 1;
+  border-radius: 10px;
+}
+.full-stack {
+  border-left: 10px solid;
+  border-image: linear-gradient(#ff00ff, #26ff00);
+  border-image-slice: 1;
+  border-radius: 10px;
+}
+.third-sec {
+  margin-bottom: 60px;
+  background-image: url(image/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+footer {
+  text-align: center;
 }
