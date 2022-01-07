@@ -1,5 +1,6 @@
 body {
   font-family: "Kanit", sans-serif;
+
   margin: 0;
 }
 .logo {
@@ -7,21 +8,32 @@ body {
   background-image: linear-gradient(50deg, #fa715c, #ff4d94);
   margin: 0;
   text-align: center;
-  padding: 10px 0;
+  padding: 12px 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
-.logo span {
-  background: linear-gradient(to right, #797bfd, #7bdef7);
+
+.logo h1 {
+  background: linear-gradient(45deg, #292cec, goldenrod);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-size: 50px;
+  font-size: 60px;
+  margin: 0;
 }
-
+.first-sec {
+  display: flex;
+  background-image: url(image/top-banner.png);
+  background-repeat: no-repeat;
+  margin-bottom: 40px;
+  margin-top: 107px;
+}
 .tometo {
   color: goldenrod;
 }
 .hadname {
-  font-size: 40px;
+  font-size: 35px;
 }
 .linkbtn {
   text-decoration: none;
@@ -38,12 +50,7 @@ body {
   margin-right: 30px;
   text-align: justify;
 }
-.first-sec {
-  display: flex;
-  background-image: url(image/top-banner.png);
-  background-repeat: no-repeat;
-  margin-bottom: 40px;
-}
+
 .half-width img {
   width: 100%;
 }
@@ -61,7 +68,7 @@ body {
   width: 40%;
   margin: 0 5%;
   padding: 10px 10px 0 30px;
-  text-align: justify;
+  /* text-align: justify; */
   /* height: 350px; */
   box-shadow: 10px 10px 40px gray;
 }
